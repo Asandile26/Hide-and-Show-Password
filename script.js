@@ -9,7 +9,7 @@ eyeIcon.onclick = function(){
         eyeIcon.classList.add("fa-eye");
     }else{
         password.type = "password";
-        eyeIcon.classList.add("fa-eye");
-        eyeIcon.classList.remove("fa-eye-slash");
+        eyeIcon.classList.add("fa-eye-slash");
+        eyeIcon.classList.remove("fa-eye");
     }
 };
